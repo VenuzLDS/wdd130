@@ -1,0 +1,39 @@
+/* Layout Styling */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Profile Image Styling */
+main img {
+    width: 150px;
+    height: auto;
+}
+
+/* Aside Element Styling for Nigeria Section */
+aside {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Aside Image Styling */
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* Paragraph Padding Adjustment */
+p {
+    padding: 0;
+}
+
+/* Footer Distinction and Alignment */
+footer {
+    margin-top: 30px;
+    border-top: 1px solid #333;
+    text-align: center;
+}
