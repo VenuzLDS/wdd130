@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Layout Styling */
 main {
     max-width: 800px;
@@ -8,16 +14,27 @@ main {
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 /* Aside Element Styling for Nigeria Section */
 aside {
     width: 300px;
-    margin: 20px auto;
-    border: 1px solid #ccc;
-    padding: 15px;
-    background-color: #f9f9f9;
-    color: #333;
+    text-align: center;
+    position: relative;
+}
+
+/* Aside Heading Overlay */
+aside h2 {
+    position: absolute;
+    top: 25px;
+    left: 115px;
+    color: white;
+    text-shadow: 1px 1px 4px black;
 }
 
 /* Aside Image Styling */
@@ -36,4 +53,19 @@ footer {
     margin-top: 30px;
     border-top: 1px solid #333;
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem 1rem 1rem 2rem;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+aside.box {
+    margin: 1rem auto;
+    padding: 1rem;
 }
