@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | White Water Rafting Co.</title>
+    <meta name="description" content="Contact White Water Rafting Co. for trip reservations, general inquiries, directions, and customer support.">
+    <meta name="author" content="Goodness Amiang">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="White Water Rafting Co. Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="contact-title">Contact Us</h1>
+
+        <!-- Company Info & Google Map -->
+        <section class="contact-info">
+            <div class="company-details">
+                <h2>Company Information</h2>
+                <p><strong>Address:</strong> 123 River Rapids Way, Moab, UT 84532</p>
+                <p><strong>Phone:</strong> (801) 555-0199</p>
+                <p><strong>Email:</strong> info@whitewaterrafting.com</p>
+            </div>
+
+           <div class="map-container">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49913.04930716533!2d-109.58451305811752!3d38.56682162954824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8747e18b3711145f%3A0x61e00b28a17c782f!2sAVA%20Rafting%20%26%20Zipline!5e0!3m2!1sen!2sng!4v1795792826552!5m2!1sen!2sng" 
+        width="400" 
+        height="250" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="strict-origin-when-cross-origin"
+        title="White Water Rafting Co. Location Map">
+    </iframe>
+</div>
+
+        </section>
+
+        <!-- Employee Profiles (3 Employees with Titles) -->
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-grid">
+                <figure>
+    <img src="images/employee-1.jpg" alt="Marcus Vance, Lead River Guide">
+    <figcaption>Marcus Vance — Lead River Guide</figcaption>
+</figure>
+<figure>
+    <img src="images/employee-2.jpg" alt="Sarah Jenkins, Reservations Manager">
+    <figcaption>Sarah Jenkins — Reservations Manager</figcaption>
+</figure>
+                <figure>
+                    <img src="images/employee-3.jpg" alt="Elena Rostova, Safety & Gear Coordinator">
+                    <figcaption>Elena Rostova — Safety &amp; Gear Coordinator</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form-section">
+            <h2>Send Us a Message</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <fieldset class="radio-group">
+                    <legend>Purpose of Message:</legend>
+                    <div class="radio-option">
+                        <input type="radio" id="purpose-general" name="purpose" value="General Inquiry" required>
+                        <label for="purpose-general">General Inquiry</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="purpose-reservation" name="purpose" value="Reservation Question">
+                        <label for="purpose-reservation">Reservation Question</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="purpose-suggestion" name="purpose" value="Website Suggestion">
+                        <label for="purpose-suggestion">Website Suggestion</label>
+                    </div>
+                </fieldset>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit" class="submit-btn">Send My Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 | White Water Rafting Co. | Goodness Amiang</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
